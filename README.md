@@ -1,5 +1,7 @@
 # Flood Risk Intelligence (QGIS + Python + Streamlit)
 
+**A quick credit to Sriniketh** at https://github.com/Sriniketh08/Flood-RIsk-Analysis
+
 A richer, end-to-end GIS project that simulates **flood risk analysis** using open tooling.
 It includes synthetic datasets, a Python processing pipeline (GeoPandas/Shapely), a Streamlit
 dashboard for interactive maps, and a simple unit test.
