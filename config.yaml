@@ -1,0 +1,19 @@
+area_name: Demo Basin
+crs_input: EPSG:4326
+crs_metric: EPSG:3857  # used for distance/buffer in meters
+risk:
+  river_buffer_m: 500
+  hospital_far_m: 5000
+  weights:
+    rainfall: 0.5
+    river_proximity: 0.3
+    hospital_distance: 0.2
+files:
+  rivers: data/synthetic/rivers.geojson
+  boundary: data/synthetic/boundary.geojson
+  hospitals: data/synthetic/hospitals.csv
+  population: data/synthetic/population.csv
+  rainfall: data/synthetic/rainfall.csv
+outputs:
+  risk_geojson: outputs/risk_zones.geojson
+  summary_csv: outputs/summary.csv

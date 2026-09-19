@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DemoBasin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.9,
+              32.7
+            ],
+            [
+              -96.9,
+              33.0
+            ],
+            [
+              -96.5,
+              33.0
+            ],
+            [
+              -96.5,
+              32.7
+            ],
+            [
+              -96.9,
+              32.7
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

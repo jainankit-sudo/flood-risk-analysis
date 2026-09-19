@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "River A"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88,
+            32.72
+          ],
+          [
+            -96.7,
+            32.9
+          ],
+          [
+            -96.55,
+            32.98
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "River B"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.85,
+            32.99
+          ],
+          [
+            -96.6,
+            32.8
+          ]
+        ]
+      }
+    }
+  ]
+}
